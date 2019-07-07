@@ -1,0 +1,95 @@
+.title{
+    background:aqua;
+    color:white;
+    font-family: 'DM Serif Text', serif;
+    width:370px;
+    height:70px;
+    padding-top:20px;
+    font-size:44px;
+    margin-left:10px;
+    margin-top:10px;
+    text-align: center;
+}
+
+.instructions{
+    margin-left:10px;
+    margin-top:10px;
+    width:420px;
+    height: 210px;
+    background: rgb(7, 215, 142);
+}
+
+.row1{
+    margin-left:10px;
+    margin-top:10px;
+    width: 334px;
+}
+
+.floatLeft{
+    float:left;
+    background:rgb(75, 8, 208);
+    width:250px;
+    height: 100px;
+}
+
+.floatLeft p{
+    color:white
+}
+
+.floatRight{
+    width:70px;
+    background:rgb(5, 92, 198);
+    float:right;
+    height: 100px;
+
+
+}
+
+#randomScore{
+    font-size:30px;
+}
+#wins{
+    color:white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#losses{
+    color:white;
+    padding-top: 20px;
+    text-align: center;
+}
+.Gems{
+    display: inline;
+}
+
+.gemImage{
+    width: 120px;
+    margin-top:20px;
+
+}
+
+.gemWrapper{
+    margin-top:10px;
+}
+.scoreText{
+    width:250px;
+    text-align: center;
+    color:white;
+    background: orange;
+    margin-left:10px;
+}
+
+.yourScore{
+    margin-top:10px;
+    margin-left:10px;
+    float:left;
+    background:rgb(209, 178, 3);
+    width:250px;
+    height: 100px;
+}
+
+.yourScore p{
+    font-size:30px;
+    color:white;
+}
