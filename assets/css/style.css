@@ -1,6 +1,6 @@
 .title{
     background:aqua;
-    color:white;
+    color:rgb(5, 5, 5);
     font-family: 'DM Serif Text', serif;
     width:370px;
     height:70px;
@@ -66,6 +66,7 @@
 .gemImage{
     width: 120px;
     margin-top:20px;
+    
 
 }
 
@@ -93,3 +94,16 @@
     font-size:30px;
     color:white;
 }
+
+
+#youWin{
+    padding-top:5px;
+    color:white
+}
+
+#audio2{
+    position:absolute;
+    left:60%;
+    bottom:500px;
+}
+

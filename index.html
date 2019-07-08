@@ -13,13 +13,10 @@
 <body>
     <h1 class="title">Crystal Collector's!</h1>
     <div class="instructions">
-        Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
-        Lorem Ipsum
-        Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
-        Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
-        Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
-        Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
-        Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+        Your score starts at Zero.
+        
+        Click on
+        
     </div>
 
     <div class="row1">
@@ -33,22 +30,35 @@
         </div>
     </div>
     <ul class="gemWrapper">
-     <li class=" Gems ">
+     <li class=" Gems " id="one">
         <img class="gemImage" src="assets/images/2-Star_Crystal.png">
      </li>
-     <li class=" Gems ">
-        <img class="gemImage" src="assets/images/png-crystal-crystal-png-500.png">
+     <li class=" Gems " >
+        <img class="gemImage" id="ten" src="assets/images/png-crystal-crystal-png-500.png">
     </li>
-    <li class=" Gems ">
+    <li class=" Gems "  id="fifteen">
         <img class="gemImage" src="assets/images/Crystal_quest.png">
     </li>
+    <li class=" Gems "  id="fifty">
+        <img class="gemImage" src="assets/images/Crystal_cosmic.png">
+    </li>
     </ul>
-    <div class="scoreText">
+    <div class="scoreText" >
             <p>Your Score Is:</p>
         </div>
     <div class="yourScore">
             <p id="yourScore">50</p>
         </div>
+
+
+        <audio id="audio2" 
+        controls
+   preload="auto" 
+   autoplay
+   src="./assets/Paul Hardcastle - Soft Rain.mp3" >
+
+   <p>Your browser does not support the audio element</p>
+</audio>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="./assets/javascript/game.js"></script>
