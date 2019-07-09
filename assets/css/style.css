@@ -17,6 +17,8 @@
     width:420px;
     height: 250px;
     background: rgb(7, 215, 142);
+    color:white;
+    /*add font-size*/
 }
 
 .row1{
